@@ -8,7 +8,7 @@
 }
 
 div {
-	display: block;
+	display: inline-block;
 }
 
 a {
@@ -23,4 +23,25 @@ img {
 ol, ul {
 	
 	list-style: none;
+}
+#bricks{
+	width:100%;
+	column-width:250px;
+	column-gap:15px;
+}
+#bricks >figure{
+	display:inline-block;
+	border:1px solid black;
+	margin:0;
+	margin-bottom:15px;
+	padding:10px;
+	box-shadow:2px 5px 5px black;
+}
+#bricks >figure >img{
+	width:100%
+}
+#bricks >figure >figcaption{
+	border:1px solid black;
+	padding:10px;
+	margin-top:11px;
 }
