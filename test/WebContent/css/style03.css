@@ -8,7 +8,7 @@
 }
 
 div {
-	display: inline-block;
+	display: block;
 }
 
 a {
@@ -38,7 +38,7 @@ ol, ul {
 	box-shadow:2px 5px 5px black;
 }
 #bricks >figure >img{
-	width:100%
+	width:100%;
 }
 #bricks >figure >figcaption{
 	border:1px solid black;
