@@ -26,21 +26,63 @@ ol, ul {
 	list-style: none;
 }
 #frame{
-	display:block;
+	padding-top:150px;
 	margin:0 auto;
 	width:1000px;
-	height:1000px;
+	height:950px;
 	box-sizing:border-box;
 	
 }
-/**/
-.main{
-	opacity:0.3;
-	width:100%;
-	height:100%;
-	background:url(../img/detective.jpg) no-repeat;
+#cut{
+	margin-top:10px;
+	margin-bottom:20px;
+	border:1px solid black;
+	z-index:1;
+}
+#info{
+	margin-top:30px;
+	margin-right:20px;
+	margin-bottom:20px;
 	float:left;
 }
-#ment{
-	opacity:1;
+h2{
+	font-size:50px;
+	text-align:right;
+	margin-top:20px;
+	z-index:1;
+}
+h4{
+	position:relative;
+	z-index:1;
+}
+p{
+	font-weight:300;
+	margin-left:20px;
+	line-height:50px;
+	font-size:18px;
+	position:relative;
+	z-index:1;
+}
+img{
+	position:relative;
+	z-index:1;
+}
+#underline{
+	margin-bottom:45px;
+	font-size:18px;
+	text-align:right;
+	border-bottom:1px solid black;
+	z-index:1;
+}
+/**/
+h2:before{
+	opacity:0.2;
+	content:" ";
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+	width:100%;
+	height:100%;
+	background:url(../img/detective.jpg);
 }
