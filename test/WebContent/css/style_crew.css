@@ -7,6 +7,7 @@ img{border: 0;}
 	padding:0;
 	font-family:"Nanum+Gothic",sans-serif;
 }
+/* 기본설정 */
 section{
 	width: 60%;
 	margin:0 auto;
@@ -32,27 +33,37 @@ article>a{
 }
 .crew01>a>div:nth-child(2){
 	position:absolute;
+	top : 80px;
 	right : 225px;
 }
 .crew02>a>div:nth-child(2){
 	position:absolute;
+	top : 80px;
 	left : 225px;
 }
 .crew03>a>div:nth-child(2){
 	position:absolute;
+	top : 80px;
 	right : 225px;
 }
 .link_crew{
 	display : block;
 }
+/* 크루블럭 위치 지정 */
 .crew01{
 	position : relative;
-	left : 60%;
+	float : right;
+}
+.crew02{
+	position : relative;
+	top : 250px;
 }
 .crew03{
 	position : relative;
-	left : 60%;
+	float : right;
+	top : 250px;
 }
+/* 크루블럭 위치 지정 */
 .img1{
 	float:right;
 }
