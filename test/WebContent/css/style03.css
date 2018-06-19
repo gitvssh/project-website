@@ -12,11 +12,11 @@ div {
 }
 
 a {
-	display:inline-block;
+	display:block;
 	outline: 0;
 	text-decoration: none;
 }
-
+/**/
 img {
 	border: 0;
 }
@@ -59,7 +59,7 @@ ol, ul {
 	background-color:rgba(0, 0, 0, 0.05);
 	opacity:0;
 	padding:10px;
-	margin-top:11px;
+	margin-top:5px;
 }
 @keyframes scale{
 	0%{
