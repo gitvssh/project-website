@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Gugi');
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 header{
 	position:fixed;
@@ -10,7 +10,6 @@ header{
 nav{
 	font-family: 'Gugi', cursive;
 	width : 1200px;
-	border : 1px solid black;
 	position:relative;
 	margin:0 auto;
 }
@@ -23,20 +22,21 @@ nav>ul{
 nav>ul>li{
 	padding : 20px;
 	font-size: 20px;
-	font-family: 'Gugi', cursive;
-	border : 1px solid black;
+  font-family: "NanumSquare",sans-serif;
 	display : inline-block;
 	margin :0 20px;
-	transition: color 1.2s;
+
 }
-nav>ul>li:hover{
-	padding : 20px;
-	font-size: 20px;
-	color : #fff;
-	font-family: 'Gugi', cursive;
-	border : 1px solid black;
-	display : inline-block;
-	margin :0 20px;
+nav>ul>li a{
+	color : #000;
+	font-family: 'Black Han Sans', sans-serif;
+	transition: color 1.2s;
+	font-weight : bold;
+}
+nav>ul>li:hover a{
+	color : #428bca;
+	font-weight : bold;
+	text-decoration: none;
 }
 
 
