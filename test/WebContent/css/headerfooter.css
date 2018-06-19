@@ -54,6 +54,7 @@ nav>ul>li:hover a{
     line-height: 20px;
     background-color: #ddd;
     color: #333;
+    text-align: right;
 }
 .txt_copyright {
     display: block;
