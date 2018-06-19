@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 
 /*reset css*/
@@ -23,14 +22,77 @@ img {
 	font-family: 'NanumGothic', sans-serif;
 }
 
-video{
+video {
 	width: 100%;
-	height: 100%;
-	position: fixed;
+	height: 970px;
+	position: absolute;
+}
+
+#container {
+	height: 970px;
+	background-color: black;
+}
+
+#bar {
+	width:140px;
+	padding-top: 16%;
+}
+
+#bar>a>div {
+	border: 1px solid white;
+	width: 100px;
+	height: 80px;
+	margin-bottom: 30px;
+	margin-left: 25px;
+	z-index: 1;
+	text-align: center;
+	vertical-align: middle;
+	padding: 7px;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	background-size: 100px 80px;
 	opacity: 0.5;
+}
+
+#venom {
+	background-image: url("../img/m_venom.jpg");
 	
 }
 
+#bumblebee {
+	background-image: url("../img/m_bumblebee.jpg");
+}
 
+#jurassic {
+	background-image: url("../img/m_jurassic.jpg");
+}
+#dumbo{
+	background-image: url("../img/m_dumbo.JPG");
+}
 
+#bar>a>div:hover {
+	border: white;
+	animation: select 1s ;
+	opacity: 1;
+}
 
+#home{
+	background-image: url("../img/home.png");
+	margin-left:50px;
+	width:50px;
+	height:50px;
+	background-size: cover;
+	text-align: center;
+	color:white;
+	padding-top:50px;
+	opacity: 0.5;
+}
+#home:hover{
+	opacity: 1;
+}
+
+@keyframes select{
+	0%{opacity:0.5;}
+	100%{opacity:1;}
+} 
