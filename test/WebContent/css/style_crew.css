@@ -63,6 +63,36 @@ div>h3{
 	margin : 20px;
 	font-size : 20px;
 }
+article:hover div:nth-child(2) h3{
+	margin : 20px;
+	font-size : 20px;
+	animation :h3move 2s;
+}
+@keyframes h3move{
+	0%{
+	opacity: 0;
+	}
+	66%{ 
+	opacity: 0;
+	}
+	100%{
+	opacity: 1;
+	}
+}
+article:hover div:nth-child(2) p{
+	animation :pmove 2.5s;
+}
+@keyframes pmove{
+	0%{
+	opacity: 0;
+	}
+	80%{ 
+	opacity: 0;
+	}
+	100%{
+	opacity: 1;
+	}
+}
 .floatend{
 	clear:both;
 }
