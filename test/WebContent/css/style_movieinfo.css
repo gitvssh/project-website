@@ -25,7 +25,10 @@ img {
 }
 
 ol, ul {
-	
+	width:800px;
+	height:40px;
+	margin:0 auto;
+	margin-left:300px;
 	list-style: none;
 }
 #page{
@@ -79,10 +82,11 @@ p{
 	border-bottom:1px solid black;
 }
 li{
-	width:120px;
+	margin:0 auto;
+	padding:7px;
+	width:100px;
 	height:39px;
 	font-size:15px;
-	padding:0 15px;
 	border:1px solid black;
 	float:left;
 	text-align:center;
