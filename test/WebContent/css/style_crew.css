@@ -13,6 +13,11 @@ section{
 	margin:0 auto;
 	position : relative;
 }
+h1{
+	padding : 20px;
+	width : 500px;
+     border-bottom: 1px solid #e6e6e6;
+}
 article{
 	position : relative;
 	overflow: hidden;
@@ -72,11 +77,14 @@ article>a{
 }
 div>h3{
 	margin : 20px;
-	font-size : 20px;
+	font-size : 30px;
+}
+div>p{
+	
 }
 article:hover div:nth-child(2) h3{
 	margin : 20px;
-	font-size : 20px;
+	font-size : 30px;
 	animation :h3move 2s;
 }
 @keyframes h3move{
@@ -106,4 +114,15 @@ article:hover div:nth-child(2) p{
 }
 .floatend{
 	clear:both;
+}
+
+.topimage{
+	width : 100%;
+	height : 600px;
+	background-image: url("../img/crew/bg_crewmain.jpg");
+}
+.botimage{
+	margin-top : 700px;
+	height : 700px;
+	background-image: url("../img/crew/bottommain.png");
 }
