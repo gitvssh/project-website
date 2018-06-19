@@ -18,7 +18,7 @@ article{
 	overflow: hidden;
 	height : 230px;
 	width:225px;
-	border-bottom: 5px solid brown;
+	border-bottom: 5px solid #428bca;;
 	transition : width 2s;
 }
 article:hover{
