@@ -26,8 +26,10 @@ ol, ul {
 	list-style: none;
 }
 #bricks{
+	padding-top:68px;
+	padding-bottom:px;
+	margin:0 10px;
 	width:100%;
-	margin:10px 10px;
 	column-width:250px;
 	column-gap:0;
 }
