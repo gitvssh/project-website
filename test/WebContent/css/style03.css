@@ -41,7 +41,10 @@ ol, ul {
 	padding:5px;
 	
 }
-
+#bricks > figure:hover{
+	animation:scale 0.5s;
+	
+}
 #bricks > figure:hover figcaption{
 	opacity:1;
 	animation:opacity 0.5s;
@@ -58,7 +61,14 @@ ol, ul {
 	padding:10px;
 	margin-top:11px;
 }
-
+@keyframes scale{
+	0%{
+	transform:scale(0.95);
+	}
+	100%{
+	transform:scale(1.0);
+	}
+}
 @keyframes opacity{
 	0%{
 	opacity:0;
