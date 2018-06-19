@@ -3,24 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 
 /*reset css*/
-ol, ul, li {
-	list-style: none;
-}
-
-a {
-	outline: 0;
-	text-decoration: none;
-}
-
-img {
-	border: 0;
-}
-
-* {
-	margin: 0;
-	padding: 0;
-	font-family: 'NanumGothic', sans-serif;
-}
+ol, ul, li {list-style: none;}
+a {outline: 0;text-decoration: none;}
+img {border: 0;}
+* {	margin: 0;padding: 0;font-family: 'NanumGothic', sans-serif;}
 
 video {
 	width: 100%;
@@ -31,6 +17,7 @@ video {
 #container {
 	height: 970px;
 	background-color: black;
+	z-index: 1;
 }
 
 #bar {
@@ -39,18 +26,12 @@ video {
 }
 
 #bar>a>div {
+	position:relative;
 	border: 1px solid white;
 	width: 100px;
 	height: 80px;
 	margin-bottom: 30px;
 	margin-left: 25px;
-	z-index: 1;
-	text-align: center;
-	vertical-align: middle;
-	padding: 7px;
-	font-size: 18px;
-	font-weight: bold;
-	color: white;
 	background-size: 100px 80px;
 	opacity: 0.5;
 }
@@ -68,7 +49,7 @@ video {
 	background-image: url("../img/m_jurassic.jpg");
 }
 #dumbo{
-	background-image: url("../img/m_dumbo.JPG");
+	background-image: url("../img/m_dumbo.jpg");
 }
 
 #bar>a>div:hover {
@@ -78,6 +59,7 @@ video {
 }
 
 #home{
+	position:relative;
 	background-image: url("../img/home.png");
 	margin-left:50px;
 	width:50px;
@@ -87,8 +69,10 @@ video {
 	color:white;
 	padding-top:50px;
 	opacity: 0.5;
+	
 }
 #home:hover{
+	animation:select 1s 1;
 	opacity: 1;
 }
 
