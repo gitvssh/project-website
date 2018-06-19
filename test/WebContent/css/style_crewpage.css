@@ -7,6 +7,31 @@ img{border: 0;}
 	padding:0;
 	font-family:"Nanum+Gothic",sans-serif;
 }
+/* 탑 이미지 폰트 */
+.info_crew {
+    position: absolute;
+    top: 255px;
+    left: 50%;
+    margin-left: -470px;
+    font-family: 'Kakao Light','맑은 고딕','Malgun Gothic','Apple SD Gothic Neo','돋움',dotum,sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+.screen_out {
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+.txt_name {
+    display: block;
+    padding-top: 3px;
+    margin-left: -3px;
+    font-family: 'Kakao Regular',sans-serif;
+    font-size: 50px;
+}
 /* 본문 */
 .wrap_view {
     width: 940px;
