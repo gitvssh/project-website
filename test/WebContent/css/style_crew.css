@@ -80,7 +80,7 @@ div>h3{
 	font-size : 30px;
 }
 div>p{
-	
+	font-size : 15px;
 }
 article:hover div:nth-child(2) h3{
 	margin : 20px;
@@ -100,6 +100,7 @@ article:hover div:nth-child(2) h3{
 }
 article:hover div:nth-child(2) p{
 	animation :pmove 2.5s;
+	font-size : 15px;
 }
 @keyframes pmove{
 	0%{
@@ -125,4 +126,30 @@ article:hover div:nth-child(2) p{
 	margin-top : 700px;
 	height : 700px;
 	background-image: url("../img/crew/bottommain.png");
+}
+
+/* 탑 이미지 폰트 */
+.info_crew {
+    position: absolute;
+    top: 255px;
+    left: 50%;
+    margin-left: -470px;
+    font-family: 'Kakao Light','맑은 고딕','Malgun Gothic','Apple SD Gothic Neo','돋움',dotum,sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+.screen_out {
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+.txt_name {
+    display: block;
+    padding-top: 3px;
+    margin-left: -3px;
+    font-family: 'Kakao Regular',sans-serif;
+    font-size: 50px;
 }
