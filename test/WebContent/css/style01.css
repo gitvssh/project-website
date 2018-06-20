@@ -58,6 +58,11 @@ video {
 	opacity: 1;
 }
 
+@keyframes select{
+	0%{opacity:0.5;}
+	100%{opacity:1;}
+} 
+
 #home{
 	position:relative;
 	background-image: url("../img/home.png");
@@ -76,7 +81,67 @@ video {
 	opacity: 1;
 }
 
-@keyframes select{
-	0%{opacity:0.5;}
-	100%{opacity:1;}
-} 
+
+
+#message{
+	position: absolute;
+    top: 155px;
+    left: 50%;
+    margin-left: -350px;
+    font-size: 20px;
+    color: #fff;
+    z-index: 5;
+}
+#message>span{
+	display: block;
+    padding-top: 3px;
+    margin-left: -3px;
+    font-size: 50px;
+    text-shadow: 1px 1px 5px black;
+    opacity:0;
+    
+    
+    
+}
+#s1{
+	animation:disapper 2s 1;
+	animation-delay:2s;
+}
+#s2{
+	position:relative;
+	animation:disapper2 1.5s 1;
+	animation-delay:5s;
+	margin-top:550px;
+	left:170px;
+}
+
+
+@keyframes disapper{
+	0%{ opacity:0}
+	50%{ opacity:1}
+	100%{ opacity:0}
+}
+@keyframes disapper2{
+	0%{ opacity:0}
+	10%{ opacity:1}
+	90%{ opacity:1}
+	100%{ opacity:0}
+}
+}
+@keyframes disapper3{
+	0%{ opacity:0}
+50%{ opacity:1}
+	100%{ opacity:0}
+}
+}
+@keyframes disapper4{
+	0%{ opacity:0}
+50%{ opacity:1}
+	100%{ opacity:0}
+}
+}
+@keyframes disapper5{
+	0%{ opacity:0}
+50%{ opacity:1}
+	100%{ opacity:0}
+}
