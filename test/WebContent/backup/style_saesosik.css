@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+ol,ul{list-style:none;}
+a{outline:0; text-decoration: none;}
+img{border: 0;}
+*{margin:0;
+	padding:0;
+	font-family:"Nanum+Gothic",sans-serif;
+}
+/* 기본설정 */
+.topimage{
+	width : 100%;
+	height : 600px;
+	background-image: url("http://www.goldenleafleaders.com/wp-content/uploads/2018/01/News_header.jpg");
+}
+.lnb{
+	margin-top : 30px;
+}
+.lnb>ul{
+	margin :0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	border-radius: 10px;
+	background-color: #428bca; 
+	width : 30%;
+}
+.lnb>ul>li{
+	border-left : 1px solid #ddd;
+	padding : 15px;
+	height : 80%;
+	font-size: 20px;
+  font-family: "NanumSquare",sans-serif;
+	display : inline-block;
+	background-color: #428bca; 
+	color : #ddd;
+}
+
+.lnb>ul>li a{
+	color : #aaa;
+	font-family: 'Black Han Sans', sans-serif;
+	transition: color 1.2s;
+	font-weight : bold;
+}
+.lnb>ul>li:hover a{
+	color : #fff;
+	font-weight : bold;
+	text-decoration: none;
+}
+.topphoto{
+	width: 40%;
+	margin:0 auto;
+	position : relative;
+	border : 1px solid red;
+	margin-top:50px;
+}
+.secimg{
+	left : 300px;
+	width : 50%;
+	border : 1px solid blue;
+}
+.secimg>img{
+	width : 100%;
+	
+}
+.subtit{
+	position : absolute;
+	top : -50px;
+	left : 30px;
+	width : 180px;
+	height : 100px;
+	background-color : #428bca;
+	border-radius: 30px;
+	text-align: center;
+	padding-top: 30px;
+}
