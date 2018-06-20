@@ -27,7 +27,7 @@ margin-left:380px;
 	padding:0 7px;
 }
 .cate01:nth-child(1){
-	border-bottom:1px solid black;
+	border-bottom:1px solid rgba(0, 0, 0, 0.05);
 }
 #cate02{
 	margin-right:80px;
@@ -74,7 +74,7 @@ ol, ul {
 	margin:0 auto;
 	width:1200px;
 	height:140px;
-	border:3px solid black;
+	border:3px solid rgba(0, 0, 0, 0.05);
 }
 #bricks{
 	padding-top:20px;
