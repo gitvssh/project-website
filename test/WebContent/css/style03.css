@@ -11,11 +11,17 @@ div {
 	display: block;
 }
 .cate01{
+	
 	margin:0 auto;
 	width:650px;
 	height:45px;
 	padding:13px 0;
 	font-size:14px;
+}
+#cate05{
+	padding:13px 0;
+margin-left:380px;
+	
 }
 .bar{
 	padding:0 7px;
@@ -23,15 +29,32 @@ div {
 .cate01:nth-child(1){
 	border-bottom:1px solid black;
 }
-
+#cate02{
+	margin-right:80px;
+}
+#cate03{
+	margin-right:53px;
+}
 span{
 	font-weight:bold;
 }
 
 a {
-	display:block;
+	display:inline-block;
 	outline: 0;
 	text-decoration: none;
+}
+#cate04{
+	margin-left:105px;
+	display:block;
+	width:42px;
+	height:25px;
+	text-align:center;
+	border-radius:5px;
+	font-weight:bold;
+	padding-top:2px;
+	color:white;
+	background-color:#e71a0f;
 }
 /**/
 img {
