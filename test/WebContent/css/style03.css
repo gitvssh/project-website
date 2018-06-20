@@ -26,9 +26,9 @@ ol, ul {
 }
 #bricks{
 	padding-top:68px;
-	padding-bottom:px;
-	margin:0 10px;
-	width:100%;
+	padding-bottom:60px;
+	margin:0 auto;
+	width:1200px;
 	column-width:250px;
 	column-gap:0;
 }
