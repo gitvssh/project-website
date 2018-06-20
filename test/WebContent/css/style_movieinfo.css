@@ -15,14 +15,10 @@ div {
 }
 
 a {
+	float:left;
 	color:black;
 	display:inline;
 	outline: 0;
-	text-decoration: none;
-}
-li> a, a:hover, a:visited, a:link, a:active{
-	font-weight:bold;
-	display:inline-block;
 	text-decoration: none;
 }
 /**/
