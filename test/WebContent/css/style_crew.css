@@ -18,10 +18,34 @@ section{
 	height : 300px;
 }
 article{
-	margin : 30px;
+	margin : 30px 50px 30px 30px;
 	position : relative;
-	width : 34%;
+	width : 40%;
 	float : left;
+	text-align: center;
+	box-sizing: border-box;
+}
+.wrapimg{
+	position : relative;
+	width : 150px;
+	height : 150px;
+	margin : 0 auto;
+}
+article:hover div .crewimg{
+	width : 150px;
+	height : 150px;
+}
+.crewimg{
+	transition : width 0.5s, height 0.5s;
+	width : 128px;
+	height : 128px;
+	display: table;
+	margin: 0 auto;
+}
+.crewimg img{
+	height: 100%; 
+	width: 100%; 
+	object-fit: contain;
 }
 .floatclaer{
 	position: relative;
