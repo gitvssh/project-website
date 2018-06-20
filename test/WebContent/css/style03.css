@@ -16,11 +16,15 @@ div {
 	height:45px;
 	padding:13px 0;
 	font-size:14px;
+}
+.bar{
+	
 	padding:0 7px;
 }
 li:nth-child(1){
 	border-bottom:1px solid black;
 }
+
 span{
 	font-weight:bold;
 }
