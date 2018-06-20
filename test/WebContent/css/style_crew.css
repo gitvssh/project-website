@@ -15,7 +15,7 @@ section{
 }
 .mainbody{
 	margin-top : 50px;
-	height : 300px;
+	height : 100px;
 }
 article{
 	margin : 30px 50px 30px 30px;
@@ -39,7 +39,7 @@ article:hover div .crewimg{
 	transition : width 0.5s, height 0.5s;
 	width : 128px;
 	height : 128px;
-	display: table;
+	display: inline-block;
 	margin: 0 auto;
 }
 .crewimg img{
