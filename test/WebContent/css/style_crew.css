@@ -13,27 +13,31 @@ section{
 	margin:0 auto;
 	position : relative;
 }
+.tit01{
+	border-bottom: 1px solid #ddd;
+}
+.tit01>h1{
+	padding: 20px 20px 20px 30px;
+}
 .mainbody{
 	margin-top : 50px;
-	height : 100px;
 }
 article{
 	margin : 30px 50px 30px 30px;
 	position : relative;
-	width : 40%;
+	width : 25%;
 	float : left;
 	text-align: center;
 	box-sizing: border-box;
 }
 .wrapimg{
-	position : relative;
+	position : absolute;
+	left : 0;
+	right : 0;
+	top : 15%;
 	width : 150px;
 	height : 150px;
 	margin : 0 auto;
-}
-article:hover div .crewimg{
-	width : 150px;
-	height : 150px;
 }
 .crewimg{
 	transition : width 0.5s, height 0.5s;
@@ -46,6 +50,24 @@ article:hover div .crewimg{
 	height: 100%; 
 	width: 100%; 
 	object-fit: contain;
+}
+article:hover div .crewimg{
+	width : 150px;
+	height : 150px;
+}
+h3{
+	font-size : 50px;
+	padding-top:50px;
+}
+.infobox{
+	padding-top : 150px;
+	padding : 20px;
+	margin-top : 150px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+}
+.infobox p{
+	line-height: 20px;
 }
 .floatclaer{
 	position: relative;
