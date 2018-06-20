@@ -188,17 +188,18 @@ img {border: 0;}
 
 
 #bar {
+	position:absolute;
 	width:140px;
 	padding-top: 16%;
 }
 
 #bar>a>div {
 	position:relative;
-	border: 1px solid white;
+	border: 1px solid black;
 	width: 100px;
 	height: 80px;
 	margin-bottom: 30px;
-	margin-left: 25px;
+	margin-left: 20px;
 	background-size: 100px 80px;
 	opacity: 0.5;
 }
