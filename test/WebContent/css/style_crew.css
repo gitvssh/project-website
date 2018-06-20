@@ -9,113 +9,26 @@ img{border: 0;}
 }
 /* 기본설정 */
 section{
-	width: 60%;
+	width: 70%;
 	margin:0 auto;
 	position : relative;
 }
-h1{
-	padding : 20px;
-	width : 500px;
-     border-bottom: 1px solid #e6e6e6;
+.mainbody{
+	margin-top : 50px;
+	height : 300px;
 }
 article{
+	margin : 30px;
 	position : relative;
-	overflow: hidden;
-	height : 230px;
-	width:225px;
-	border-bottom: 5px solid #428bca;;
-	transition : width 2s;
+	width : 34%;
+	float : left;
 }
-article:hover{
-	position : relative;
-	width : 500px;
-}
-article>.crewline{
+.floatclaer{
+	position: relative;
 	clear:both;
+	margin-bottom: 500px;
 }
-article>a{
-	position:relative;
-}
-.crew01>a>div:nth-child(2){
-	position:absolute;
-	top : 80px;
-	right : 225px;
-}
-.crew02>a>div:nth-child(2){
-	position:absolute;
-	top : 80px;
-	left : 225px;
-}
-.crew03>a>div:nth-child(2){
-	position:absolute;
-	top : 80px;
-	right : 225px;
-}
-.link_crew{
-	display : block;
-}
-/* 크루블럭 위치 지정 */
-.crew01{
-	position : relative;
-	float : right;
-}
-.crew02{
-	position : relative;
-	top : 250px;
-}
-.crew03{
-	position : relative;
-	float : right;
-	top : 250px;
-}
-/* 크루블럭 위치 지정 */
-.img1{
-	float:right;
-}
-.img2{
-	float:left;
-}
-div>h3{
-	margin : 20px;
-	font-size : 30px;
-}
-div>p{
-	
-}
-article:hover div:nth-child(2) h3{
-	margin : 20px;
-	font-size : 30px;
-	animation :h3move 2s;
-}
-@keyframes h3move{
-	0%{
-	opacity: 0;
-	}
-	66%{ 
-	opacity: 0;
-	}
-	100%{
-	opacity: 1;
-	}
-}
-article:hover div:nth-child(2) p{
-	animation :pmove 2.5s;
-}
-@keyframes pmove{
-	0%{
-	opacity: 0;
-	}
-	80%{ 
-	opacity: 0;
-	}
-	100%{
-	opacity: 1;
-	}
-}
-.floatend{
-	clear:both;
-}
-
+/* 상하단 이미지 */
 .topimage{
 	width : 100%;
 	height : 600px;
@@ -125,4 +38,30 @@ article:hover div:nth-child(2) p{
 	margin-top : 700px;
 	height : 700px;
 	background-image: url("../img/crew/bottommain.png");
+}
+
+/* 탑 이미지 폰트 */
+.info_crew {
+    position: absolute;
+    top: 255px;
+    left: 50%;
+    margin-left: -470px;
+    font-family: 'Kakao Light','맑은 고딕','Malgun Gothic','Apple SD Gothic Neo','돋움',dotum,sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+.screen_out {
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+.txt_name {
+    display: block;
+    padding-top: 3px;
+    margin-left: -3px;
+    font-family: 'Kakao Regular',sans-serif;
+    font-size: 50px;
 }
